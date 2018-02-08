@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Andrew Ugbechie | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+
+  .bkg0 { 
+      background: url("http://res.cloudinary.com/andrewugbechie/image/upload/v1518031972/sebastian-klein-405020_icqces.jpg");
+      background-size: cover;
+      color: #ffffff;
+  }
+  .bkg1 { 
+      background-color: #D2E1F7; 
+      color: #ffffff;
+  }
+  .bkg2 { 
+      background-color: #474e5d; 
+      color: #ffffff;
+  }
+  .bkg3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .bkg4 { 
+      background-color: #2f2f2f; 
+      color: #fff;
+  }
+
+  .bkg5 {
+    color: black;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#aboutme">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#around">AROUND THE WEB</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid bkg0 text-center">
+  <h1>Andrew Ugbechie </h1>
+  <h3><small style="color: white">Tech Enthusiast</small></h3><br>
+  <img src="http://res.cloudinary.com/andrewugbechie/image/upload/v1509135325/IMG_-qrcemx_wzqcvv.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+</div>
+
+<div class="container-fluid bkg1 text-center" id="aboutme">
+  <h3 class="margin" style="color:black">ABOUT ME</h3>
+  <h3><small>Hello there, my name is Andrew Ugbechie. I'm a graduate of University of Ibadan where I studied Physics. My hobbies include listening to music, watching good TV series as well as photography. I love art and creativity. I love tech-related topics. My favorite language is Javascript. </small></h3>
+</div>
+
+
+<div class="container-fluid bkg2 text-center" id="projects">
+  <h3 class="margin">PROJECTS</h3>
+  <p>For a while now, I've played a little with Front-end development. Below are some of the projects I have worked on along the way. Some of them are part of major applications which I cannot show at the moment. However, this page will be updated with latest projects from time to time. Feel free to contact me if you would like to ask questions or know more about these projects and I will be in touch. *winks*.</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+
+  <div class="row" style="margin-top: 40px">
+      <div class="col-sm-4">
+        <p><em><strong>Orbital Calculator</strong><br>This application was developed using Python. The UI was put together and programmed with components from Kivy, a Python framework.</em></p>
+        <img src="http://res.cloudinary.com/andrewugbechie/image/upload/v1509135325/Screenshot_23_iqwvxz.jpg" alt="Image" style="border: 2px solid grey;" class="img-responsive">
+      </div>
+
+      <div class="col-sm-4">
+        <p><em><strong>Contacts with CSS</strong><br>This application was designed with HTML and CSS. It shows color gradients inspired from an android mobile application. It was meant to be part of a larger application.</em></p>
+        <img src="http://res.cloudinary.com/andrewugbechie/image/upload/v1509135325/Screenshot_24_kdiajv.jpg" alt="Image" style="border: 2px solid grey;" class="img-responsive">
+      </div>
+
+      <div class="col-sm-4">
+        <p><em><strong>To-Do List</strong><br>This application was designed with HTML, CSS and Javascript. </em></p>
+        <img src="http://res.cloudinary.com/andrewugbechie/image/upload/v1509135324/Screenshot_27_wfzmgq.jpg" alt="Image" style="border: 2px solid grey;" class="img-responsive">
+      </div>
+      
+  </div>
+</div>
+
+  <div class="container-fluid bkg3 text-center" id="contact">
+    <h3>CONTACT</h3>
+    <p>If you would like to get in touch with me, feel free to leave a message:</p>
+    <div id="contact-section">
+        <div>
+          <form  id="contact" method="post">
+            <input type="text" name="name" placeholder="Name" /><br />
+            <input  type="email" name="email" placeholder="Email" /><br />
+            <input type="text" placeholder="Subject" name="subject" required/><br>
+            <textarea type="text" name="message" placeholder="Write Message Here"></textarea><br />
+            <a href="#" class="btn btn-default btn-lg"><span class="glyphicon glyphicon-phone"></span>Send</a>
+          </form>
+        </div>
+      </center>
+    </div>
+  </div>
+
+<div class="container-fluid bkg4 text-center" id="around">
+    <h3>AROUND THE WEB</h3>
+    <center><table>
+        <tr>
+          <td><strong>Twitter:</strong></td>
+          <td>@DREW_certified</td>
+        </tr>
+        <tr>
+          <td><strong>Instagram:</strong></td>
+          <td>@drew_certified</td>
+        </tr>
+        <tr>
+          <td><strong>Github:</strong></td>
+          <td>@DREW-certified</td>
+        </tr>
+
+        <tr>
+          <td><strong>Slack:</strong></td>
+          <td>@andrewugbechie</td>
+        </tr>
+    </table></center>
+  </div>
+<!-- Footer -->
+<footer class="container-fluid bkg5 text-center">
+  <div>
+    <p>This page was designed by <strong>Andrew Ugbechie</strong>. +2348058024477 <br> 2018. </p>
+  </div>
+</footer>
+
+</body>
+</html>
